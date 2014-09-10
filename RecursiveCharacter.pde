@@ -15,7 +15,7 @@ class RecursiveCharacter extends Creature {
   
   void draw(float x, float y) {
     t += speed;
-    strokeWeight(1);
+    noStroke();
     pushMatrix();
     translate(x, y);
     
