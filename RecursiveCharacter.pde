@@ -21,7 +21,7 @@ class RecursiveCharacter extends Creature {
     
     for(int i = 0; i < 8; i++) {
       rotate(map(i, 0, 8, 0, TWO_PI));
-      drawRows(200, 50, 8);
+      drawRows(200, 20, 8);
     }    
     popMatrix();
   }
